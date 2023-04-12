@@ -1,0 +1,256 @@
+
+body {
+  background-color: #000000;
+  color:hsl(39, 100%, 55%);;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+
+
+}
+
+h1 {
+font-family: 'Sacramento', cursive;
+  margin: auto;
+  font-size: 12rem;
+  font-weight: 300;
+  padding-bottom: 3%;
+
+}
+
+
+h2 {
+font-size: 3rem;
+
+}
+
+h3 {
+  font-weight: normal;
+  margin: 0;
+  padding: 3% 0 3% 0;
+
+}
+
+
+p{
+  color: black;
+}
+
+hr {
+  border-style: none;
+  border-width: 5px;
+  border-top-style: solid;
+  color: #191919;
+  margin: 0;
+  opacity: 100%;
+
+
+
+}
+
+a {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+   color: hsl(39, 100%, 55%);
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/***********Class SELECTORS**********/
+.white-section {
+  background-color: #fff
+}
+.LightsOn{
+  margin: auto;
+ animation: lights 3s 750ms linear infinite;
+}
+.Headers{
+  text-decoration: underline;
+  text-decoration-color: hsl(39, 100%, 55%);
+  color: black;
+}
+/* Navbar */
+.navbar {
+  background-color: #000000;
+  opacity:;
+}
+
+.nav-brand {
+  font-family: "Sacramento" "cursive"
+}
+
+.nav-text {
+  color: hsl(40, 100%, 50%);
+  padding: 0 30% 0 0;
+}
+.navbar-collapse{
+  padding: 0% 0% 0% 0%;
+}
+
+/* Title-top */
+
+.TopContainer {
+  padding: 20% 0 20% 0;
+  position: relative;
+}
+.Title-reappear{ animation: fadeIn2 5s;}
+
+
+
+/* About-Me */
+.fade-in-image { animation: fadeIn 5s; }
+
+.EmojiHi {
+  float: right;
+  width: 40%;
+}
+
+.MiddleContainer {
+  position: relative;
+  padding: 3% 0 3% 0
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+  width: 60%;
+  padding-bottom: 10%;
+  text-align: left;
+}
+
+/* skills */
+.skills {
+padding: 10% 0 10% 0 ;
+}
+
+.Skills-Heading {
+  font-family: "Monaco" monospace;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 100px auto auto;
+  line-height: 2;
+}
+
+.CodeImages {
+  width: 20%;
+}
+
+
+/* Education/Experience*/
+/* .Education-Section {
+  padding: 5% 0 5% 0;
+
+}
+.Education-Image{
+ float: left;
+ width: 25%;
+
+}
+
+.Education-Heading {
+  padding: 0 0 5% 0;
+  text-align: center;
+}
+.Education-Header{
+  text-align: center;
+}
+.Herbert{
+  padding: 7% 3% 7% 3%;
+
+}
+
+.STEM{
+  padding: 7% 3% 7% 3%;
+
+}
+.University {
+  padding: 7% 3% 7% 3%;
+} */
+
+/* Projects Section */
+
+
+.Projects-section{
+padding: 10% 0 0 0;
+
+}
+.carousel-inner{
+padding: 5% 10% 5% 10%;
+}
+
+.Projects-Descriptions {
+padding: 5% 5% 5% 5%;
+}
+.Projects-Image{
+  width: 80%;
+}
+.Project-Website-Link {
+  font-size: 2rem;
+}
+.Project1{
+  margin: 5%;
+  box-sizing: border-box;
+}
+.Project2{
+  padding: 15%;
+  box-sizing: border-box;
+}
+.Top-Projects-Image{
+  width: 40%;
+  float: left;
+  margin-left: 70px;
+}
+.Top-Projects-Image2{
+  width: 50%;
+  float: right;
+  margin-left: 70px;
+}
+.Top-projects-description{
+  margin: auto;
+}
+/* Contact me */
+
+.contact-me {
+  margin: 0 auto 60px auto;
+  padding: 15% 0 10% 0;
+}
+
+.contactme-heading {
+padding: 5% 0 5% 0
+}
+
+.Email{
+  font-size: 2.5rem;
+  padding: 3% 0 0 0;
+}
+.link-images{
+font-size: 2rem;
+}
+/* Footer  */
+
+.Ayodeji {
+  color: inherit;
+  font-size: 1rem;
+  padding: 3% 0 3% 0;
+}
+
+.BottomContainer {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.footer-link {
+  font-size: 3rem;
+}
